@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DefaultClasses" xml:space="preserve">
+    <value>4;5;7;8;10</value>
+    <comment>Default Values to split subjects</comment>
+  </data>
+  <data name="SubjectLbl" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="CheckingDataText" xml:space="preserve">
+    <value>Пожалуйста, проверьте результат экспорта</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="AddActivityBtn" xml:space="preserve">
+    <value>Добавить активность</value>
+  </data>
+  <data name="SaveToFileLbl" xml:space="preserve">
+    <value>В файл</value>
+  </data>
+  <data name="YearlyReportLbl" xml:space="preserve">
+    <value>Отчёт по классу</value>
+  </data>
+  <data name="UsingLbl" xml:space="preserve">
+    <value>Использовать</value>
+  </data>
+  <data name="ReadintFileTitle" xml:space="preserve">
+    <value>Чтение файла</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="PupilsAddressLbl" xml:space="preserve">
+    <value>Адрес проживания</value>
+    <comment>ClassesRegister label</comment>
+  </data>
+  <data name="WelkomeLbl" xml:space="preserve">
+    <value>Здравствуйтe! Зарегистрируйтесь или авторизируйтесь</value>
+    <comment>WelkomeScreen label</comment>
+  </data>
+  <data name="BirthdayLbl" xml:space="preserve">
+    <value>Дата рождения</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="IncorrectDataTxtExt" xml:space="preserve">
+    <value>Заполните данные для классов: {0}</value>
+    <comment>ClassesConnections screen</comment>
+  </data>
+  <data name="AuthoredWelkomeLbl" xml:space="preserve">
+    <value>Здравствуйте, {0}! Выберите следующее действие</value>
+  </data>
+  <data name="YearBirthLbl" xml:space="preserve">
+    <value>Год рождения</value>
+  </data>
+  <data name="ExportBtn" xml:space="preserve">
+    <value>Получить данные</value>
+    <comment>TeachersRegistration screen button</comment>
+  </data>
+  <data name="ExportDataBtn" xml:space="preserve">
+    <value>Получить данные</value>
+  </data>
+  <data name="OlympicLbl" xml:space="preserve">
+    <value>ВОШ</value>
+    <comment>Всероссийская олимпиада школьников</comment>
+  </data>
+  <data name="NeedToProcessLbl" xml:space="preserve">
+    <value>Участник?</value>
+  </data>
+  <data name="ReadingFileFailureText" xml:space="preserve">
+    <value>Файл не может быть прочтён</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="AccountLbl" xml:space="preserve">
+    <value>№ счёта</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>Ваша школа не зарегистрирована</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="RegisterBtn" xml:space="preserve">
+    <value>Зарегистрировать</value>
+    <comment>WelkomeScreen button</comment>
+  </data>
+  <data name="PhoneLbl" xml:space="preserve">
+    <value>№ телефона</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="YearActivitiesBtn" xml:space="preserve">
+    <value>Достижения</value>
+  </data>
+  <data name="PassportLbl" xml:space="preserve">
+    <value>Паспорт. данные</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="OlderClassesSubjects" xml:space="preserve">
+    <value>Литература;Биология;Физика;Химия;Информатика;История;Обществознание;География;Английский язык;Астрономия;Физкультура;ОБЖ;Технология;МХК</value>
+    <comment>Default Values to split subjects</comment>
+  </data>
+  <data name="RegisterText" xml:space="preserve">
+    <value>Пожалуйста, Зарегистрируйте учреждение!</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="PupilSexLbl" xml:space="preserve">
+    <value>Пол</value>
+    <comment>ClassesRegister label</comment>
+  </data>
+  <data name="UsingSubjectsLbl" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="ActivityNameLbl" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+  <data name="AdminTeacherLbl" xml:space="preserve">
+    <value>Классный руководитель:</value>
+    <comment>ClassesConnections screen</comment>
+  </data>
+  <data name="SNILSLbl" xml:space="preserve">
+    <value>СНИЛС</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="IncorrectDataTitle" xml:space="preserve">
+    <value>Заполните таблицу</value>
+    <comment>ClassesConnections screen</comment>
+  </data>
+  <data name="InitialActivityResult" xml:space="preserve">
+    <value>Подана заявка</value>
+  </data>
+  <data name="AdminPost" xml:space="preserve">
+    <value>Выберите администрирующего</value>
+    <comment>AdminScreen label</comment>
+  </data>
+  <data name="TeacherLbl" xml:space="preserve">
+    <value>Педагог:</value>
+  </data>
+  <data name="AddressLbl" xml:space="preserve">
+    <value>Адрес и индекс</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Военкомат</value>
+  </data>
+  <data name="ReadingFileText" xml:space="preserve">
+    <value>Файл успешно прочтён и обрабатывается</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <data name="CloseBtn" xml:space="preserve">
+    <value>Закрыть</value>
+    <comment>WelkomeScreen button</comment>
+  </data>
+  <data name="SaveBtn" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>TeachersRegistration screen button</comment>
+  </data>
+  <data name="ContinueBtn" xml:space="preserve">
+    <value>Продолжить</value>
+    <comment>WelkomeScreen button</comment>
+  </data>
+  <data name="FullNameLbl" xml:space="preserve">
+    <value>Ф.И.О.</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="BankAccountLbl" xml:space="preserve">
+    <value>№ банковской карты</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="NonUsingLbl" xml:space="preserve">
+    <value>Не использовать</value>
+  </data>
+  <data name="DefaultSubjects" xml:space="preserve">
+    <value>Русский язык;Математика</value>
+    <comment>Default Values to split subjects</comment>
+  </data>
+  <data name="UpdateActivityBtn" xml:space="preserve">
+    <value>Обновить активность</value>
+  </data>
+  <data name="PressClassLbl" xml:space="preserve">
+    <value>Введите класс: </value>
+    <comment>ClassesRegister label</comment>
+  </data>
+  <data name="ExtraTeacherLbl" xml:space="preserve">
+    <value>Доп. педагог:</value>
+  </data>
+  <data name="RepeatedValues" xml:space="preserve">
+    <value>У Вас имеются повторяющиеся значения</value>
+  </data>
+  <data name="INNLbl" xml:space="preserve">
+    <value>ИНН</value>
+    <comment>TeachersRegistration screen label</comment>
+  </data>
+  <data name="ExoticSubjects" xml:space="preserve">
+    <value>Право;Экономика;Немецкий язык;Французский язык;Экология</value>
+    <comment>Default Values to split subjects</comment>
+  </data>
+  <data name="IncorrectDataTxtDef" xml:space="preserve">
+    <value>Не все ячейки заполнены</value>
+    <comment>ClassesConnections screen</comment>
+  </data>
+  <data name="StatusLbl" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ClassNameLbl" xml:space="preserve">
+    <value>Класс:</value>
+    <comment>ClassesConnections screen</comment>
+  </data>
+  <data name="CheckingDataTitle" xml:space="preserve">
+    <value>Проверка данных</value>
+    <comment>Static Dialog for App</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BigBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigButtonPct1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FonPct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FonPct.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MiddleBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BigButtonPct2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoColofFon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoColofFon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FinishYearLbl" xml:space="preserve">
+    <value>Окончить год</value>
+  </data>
+</root>
